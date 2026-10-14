@@ -1,0 +1,16 @@
+{
+  "name": "closet-muse",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A private digital closet and outfit planner built with vanilla JavaScript.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test"
+  }
+}
