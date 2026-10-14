@@ -38,33 +38,6 @@ npm test   # outfit engine and backup validation checks
 npm run build   # creates the static site in dist/
 ```
 
-## Publish on GitHub
-
-1. Create an empty GitHub repository named `closet-muse`.
-2. Extract this project and upload its contents into the repository root. Include `.github/workflows/pages.yml` to enable automated deployment; a local Git client is best for including hidden folders.
-3. In repository **Settings → Pages**, select **GitHub Actions** as the source.
-4. Push to `main` or run the **Deploy GitHub Pages** workflow manually.
-5. After the workflow completes, use the URL shown by the deployment job.
-
-The included workflow runs tests, builds the static files, and deploys them. Relative asset paths support a repository subdirectory such as `/closet-muse/`.
-
-### Push with Git
-
-Run these commands from inside the extracted project folder, replacing `YOUR_USERNAME`:
-
-```bash
-git init
-git add .
-git commit -m "Initial Closet Muse release"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/closet-muse.git
-git push -u origin main
-```
-
-Suggested repository description: **A private digital wardrobe and outfit planner with photo uploads, outfit matching, saved looks, and inspiration boards.**
-
-Suggested topics: `wardrobe`, `outfit-planner`, `fashion`, `javascript`, `indexeddb`, `github-pages`.
-
 ## Project structure
 
 | File | Purpose |
