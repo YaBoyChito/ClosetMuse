@@ -1,6 +1,6 @@
 # Closet Muse ✧
 
-**Your wardrobe, reimagined.** A digital closet and outfit planner that helps you rediscover clothes and accessories you already own.
+**Your wardrobe, made for you .** Have you ever wondered what to wear despite having a huge closet, going through countless fits just to settle for an all black? Introducing ClosetMuse A digital closet and outfit planner that helps you rediscover clothes and accessories you already own.
 
 Upload your pieces, organize your wardrobe, and generate outfit combinations for your plans—all in your browser.
 
